@@ -2,7 +2,7 @@
 
 This project analyzes power consumption patterns alongside weather data for various cities in Andhra Pradesh, India. Using Python and Jupyter Notebook, it demonstrates how to preprocess, merge, and analyze time-series power and weather datasets, visualize their correlations, and draw actionable insights for energy demand forecasting.
 
-## Table of Contents
+## Table of Contents 
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
