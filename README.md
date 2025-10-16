@@ -113,5 +113,5 @@ This project is licensed under the MIT License.
 
 ---
 
-**Author:** [tejaj2005](https://github.com/tejaj2005)  
+**Author:** [tejaj2005,Prashanth, Naga Vineela, Shanmukha, Nandhini](https://github.com/tejaj2005)  
 **Contact:** [GitHub Profile](https://github.com/tejaj2005)
