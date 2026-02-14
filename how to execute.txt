@@ -1,0 +1,11 @@
+1)git clone <your-repo-url>
+cd <repo-folder>
+
+2)python -m venv venv
+venv\Scripts\activate
+
+3)pip install -r requirements1.txt
+
+4)in cmd 1 => uvicorn fastapi_backend1:app --reload
+
+5) in cmd 2 => streamlit run app_v2.py 
