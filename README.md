@@ -5,6 +5,7 @@ This project analyzes power consumption patterns alongside weather data for vari
 ## Table of Contents 
 
 - [Project Overview](#project-overview)
+- [Live Demo](#live-demo)
 - [Data Sources](#data-sources)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,6 +24,11 @@ The notebook guides you through:
 - Resampling, filtering, and handling missing data.
 - Visualizing trends, seasonality, and correlations.
 - Extracting insights for energy demand modeling.
+
+## Live Demo
+
+Check out the deployed application here: [**Power Consumption Analysis App**](https://cv-p07.streamlit.app/)
+This application is hosted on Streamlit and provides an interactive interface for the analysis.
 
 ## Data Sources
 
@@ -49,6 +55,10 @@ The notebook guides you through:
 ## Usage
 
 - Run `power_project.ipynb` in Jupyter Notebook or Google Colab.
+  
+  **Google Colab Links:**
+  - [Notebook Part 1](https://colab.research.google.com/drive/1UXXp_R1agr2x_Dh3CT4JhFnFHUA3HBmW)
+  - [Notebook Part 2](https://colab.research.google.com/drive/1l9-hGNIPcGr5x-P4ofgTxa_LpHEbZQIO?usp=sharing)
 - Ensure all CSV data files are available in `/content` (for Colab) or the working directory.
 - Follow the step-wise code cells for data loading, cleaning, merging, analysis, and visualization.
 
@@ -100,6 +110,7 @@ rajahmundry_weather_data.csv
 vijayawada_weather_data_2023-2025.csv
 kurnool_2023-02-01_to_2025-02-28.csv
 5_city_weather_data.csv    # Merged weather data
+powergrid_data_20260215_115900.csv # Power Grid data
 README.md                  # Project documentation
 ```
 
