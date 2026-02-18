@@ -27,7 +27,11 @@ The notebook guides you through:
 
 ## Live Demo
 
-Check out the deployed application here: [**Power Consumption Analysis App**](https://cv-p07.streamlit.app/)
+Check out the deployed application here:
+
+[**👉 Click here to view the Live Demo**](https://cv-p07.streamlit.app/)
+
+*Direct Link:* https://cv-p07.streamlit.app/
 
 This application is hosted on Streamlit and provides an interactive interface for the analysis.
 
