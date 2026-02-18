@@ -1198,12 +1198,12 @@ with tabs[4]:
                 ])
             else:
                 stability = "stable" if (cons.std() / cons.mean() < 0.15) else "variable"
+                quality_text = "good" if anomaly_rate < 1 else "some"
                 lines.extend([
                     "\n## AI Summary (Fallback)",
                     f"- Load appears {stability} (CV={cons.std()/cons.mean()*100:.1f}%).",
                     f"- Peak-to-average ratio: {cons.max()/cons.mean():.2f}x.",
-                    f"- {anomaly_count} anomalies ({anomaly_rate:.2f}%) suggest "
-                    f"{'good' if anomaly_rate < 1 else 'some'} data quality.",
+                    f"- {anomaly_count} anomalies ({anomaly_rate:.2f}%) suggest {quality_text} data quality.",
                 ])
 
             return "\n".join(lines)
