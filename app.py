@@ -1179,9 +1179,9 @@ with tabs[4]:
                     f"30d avg: {mean_30_str} kWh\n"
                     f"Custom avg: {mean_c_str} kWh\n\n"
                     "Give:\n"
-                    "1) 2–3 sentence insight about demand pattern,\n"
+                    "1) 2-3 sentence insight about demand pattern,\n"
                     "2) mention peaks / anomalies,\n"
-                    "3) 1–2 actionable recommendations for grid operators.\n"
+                    "3) 1-2 actionable recommendations for grid operators.\n"
                     "Max 120 words, plain text."
                 )
 
